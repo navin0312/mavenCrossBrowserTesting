@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">TestFirefox</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">48,120</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">TestChrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">21,632</td><td></td><td></td></tr><tr><td><a href="#t2">TestInternetExplorer</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,143</td><td></td><td></td></tr><tr><th>Total</th><th class="num">1</th><th class="num attn">1</th><th class="num attn">1</th><th class="num">78,895</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestFirefox &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin</td><td><a href="#m0">openBrowser</a></td><td rowspan="1">1592758209709</td><td rowspan="1">0</td></tr><tr><th colspan="4">TestFirefox &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin</td><td><a href="#m1">openApp</a></td><td rowspan="1">1592758257792</td><td rowspan="1">0</td></tr><tr><th colspan="4">TestFirefox &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin</td><td><a href="#m2">login</a></td><td rowspan="1">1592758257796</td><td rowspan="1">10</td></tr></tbody><tbody id="t1"><tr><th colspan="4">TestChrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin</td><td><a href="#m3">login</a></td><td rowspan="1">1592758277142</td><td rowspan="1">2364</td></tr></tbody><tbody id="t2"><tr><th colspan="4">TestInternetExplorer &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin</td><td><a href="#m4">login</a></td><td rowspan="1">1592758288256</td><td rowspan="1">394</td></tr></tbody></table><h2>TestFirefox</h2><h3 id="m0">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin#openBrowser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+8213181	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1592758213182	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1592758213182	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1592758213183	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1592758213184	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1592758213200	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\websensehelper@mozilla.org.xpi
+1592758213201	addons.xpi	DEBUG	Calling bootstrap method startup on websensehelper@mozilla.org version 1.0
+1592758213204	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1592758213204	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1592758213204	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1592758213204	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1592758213204	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1592758213205	addons.manager	DEBUG	Starting provider: GMPProvider
+1592758213211	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1592758213211	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1592758213211	addons.manager	DEBUG	Starting provider: PluginProvider
+1592758213211	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1592758213211	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1592758213212	addons.manager	DEBUG	Completed startup sequence
+1592758214628	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1592758214628	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1592758214629	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1592758214940	DeferredSave.extensions.json	DEBUG	Write succeeded
+1592758214940	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1592758214940	DeferredSave.extensions.json	DEBUG	Starting timer
+1592758214954	addons.repository	DEBUG	No addons.json found.
+1592758214955	DeferredSave.addons.json	DEBUG	Save changes
+1592758214971	DeferredSave.addons.json	DEBUG	Starting timer
+1592758215010	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1592758215010	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1592758215010	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1592758215012	DeferredSave.extensions.json	DEBUG	Starting write
+1592758215035	DeferredSave.addons.json	DEBUG	Starting write
+1592758215038	DeferredSave.extensions.json	DEBUG	Write succeeded
+1592758215045	DeferredSave.addons.json	DEBUG	Write succeeded
+1592758243092	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.0
+1592758243093	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.2
+1592758243094	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.3.2
+1592758243096	addons.xpi	DEBUG	Calling bootstrap method shutdown on websensehelper@mozilla.org version 1.0
+1592758243333	addons.manager	DEBUG	shutdown
+1592758243334	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1592758243334	addons.xpi	DEBUG	shutdown
+1592758243335	addons.xpi-utils	DEBUG	shutdown
+1592758243336	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1592758243337	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1592758243342	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1592758243343	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1592758243347	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1592758243352	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1592758243356	addons.manager	DEBUG	Async provider shutdown done
+
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;lenovo-PC&apos;, ip: &apos;192.168.43.184&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.generics.MavenCrossBrowserTesting.BaseTest.openBrowser(BaseTest.java:25)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+8213181	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1592758213182	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1592758213182	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1592758213183	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1592758213184	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1592758213200	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\websensehelper@mozilla.org.xpi
+1592758213201	addons.xpi	DEBUG	Calling bootstrap method startup on websensehelper@mozilla.org version 1.0
+1592758213204	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1592758213204	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1592758213204	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1592758213204	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1592758213204	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1592758213205	addons.manager	DEBUG	Starting provider: GMPProvider
+1592758213211	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1592758213211	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1592758213211	addons.manager	DEBUG	Starting provider: PluginProvider
+1592758213211	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1592758213211	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1592758213212	addons.manager	DEBUG	Completed startup sequence
+1592758214628	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1592758214628	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1592758214629	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1592758214940	DeferredSave.extensions.json	DEBUG	Write succeeded
+1592758214940	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1592758214940	DeferredSave.extensions.json	DEBUG	Starting timer
+1592758214954	addons.repository	DEBUG	No addons.json found.
+1592758214955	DeferredSave.addons.json	DEBUG	Save changes
+1592758214971	DeferredSave.addons.json	DEBUG	Starting timer
+1592758215010	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1592758215010	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1592758215010	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1592758215012	DeferredSave.extensions.json	DEBUG	Starting write
+1592758215035	DeferredSave.addons.json	DEBUG	Starting write
+1592758215038	DeferredSave.extensions.json	DEBUG	Write succeeded
+1592758215045	DeferredSave.addons.json	DEBUG	Write succeeded
+1592758243092	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.0
+1592758243093	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.2
+1592758243094	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.3.2
+1592758243096	addons.xpi	DEBUG	Calling bootstrap method shutdown on websensehelper@mozilla.org version 1.0
+1592758243333	addons.manager	DEBUG	shutdown
+1592758243334	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1592758243334	addons.xpi	DEBUG	shutdown
+1592758243335	addons.xpi-utils	DEBUG	shutdown
+1592758243336	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1592758243337	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1592758243342	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1592758243343	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1592758243347	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1592758243352	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1592758243356	addons.manager	DEBUG	Async provider shutdown done
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	... 31 more
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin#openApp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin#login</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>TestChrome</h2><h3 id="m3">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin#login</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>TestInternetExplorer</h2><h3 id="m4">com.scripts.MavenCrossBrowserTesting.TestActitimeLogin#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to find element with id == username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 313 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;lenovo-PC&apos;, ip: &apos;192.168.43.184&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:27905/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: f18aef63-4382-4e1c-a31a-ebbae81380ff
+*** Element info: {Using=id, value=username}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.pages.MavenCrossBrowserTesting.POMActitimeLoginPages.loginMethod(POMActitimeLoginPages.java:34)
+	at com.scripts.MavenCrossBrowserTesting.TestActitimeLogin.login(TestActitimeLogin.java:16)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
